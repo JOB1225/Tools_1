@@ -18,9 +18,9 @@ This script is designed to automate the conversion of SRA files to FASTQ format.
 1. Place `convert_sra_to_fastq.sh` in the root directory where your `.sra` files are located.
 2. Make sure you have `fastq-dump` installed and accessible in your PATH.
 3. Give the script execution permissions with the command:
-   'chmod +x convert_sra_to_fastq.sh'
+   `chmod +x convert_sra_to_fastq.sh`
 4. Run the script:
-   './convert_sra_to_fastq.sh'
+   `./convert_sra_to_fastq.sh`
 5. Confirm the list of SRA files when prompted.
 6. The script will create a `rawdata` directory and store the converted files there.
 
