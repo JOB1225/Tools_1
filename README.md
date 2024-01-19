@@ -1,5 +1,5 @@
 # Tools_1
-# 1.Extract the relationship between ID and gene symbol from the annotation of the platform
+## 1.Extract the relationship between ID and gene symbol from the annotation of the platform
 
 
 
