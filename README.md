@@ -1,5 +1,6 @@
-# Tools_1
-## 1.Extract the relationship between ID and gene symbol from the annotation of the platform
+# Tools
+## 1.Extract.PY
+Extract the relationship between ID and gene symbol from the annotation of the platform
 
 
 
