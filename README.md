@@ -11,16 +11,16 @@ This script is designed to automate the conversion of SRA files to FASTQ format.
 - Searches for all `.sra` files in the current directory and its subdirectories.
 - Prompts the user to confirm the list of found SRA files before proceeding.
 - Determines whether the sequencing data is single-end or paired-end.
-- Converts the SRA files using `fastq-dump --split-3` based on the sequencing type.
+- Converts the SRA files using `fastq-dump --split-3` based on the sequencing type without multi-threading.
 - Stores the converted FASTQ files in a directory named `rawdata`.
 
 ### How to Use
 1. Place `convert_sra_to_fastq.sh` in the root directory where your `.sra` files are located.
 2. Make sure you have `fastq-dump` installed and accessible in your PATH.
 3. Give the script execution permissions with the command:
-   chmod +x convert_sra_to_fastq.sh
+   'chmod +x convert_sra_to_fastq.sh'
 4. Run the script:
-   ./convert_sra_to_fastq.sh
+   './convert_sra_to_fastq.sh'
 5. Confirm the list of SRA files when prompted.
 6. The script will create a `rawdata` directory and store the converted files there.
 
