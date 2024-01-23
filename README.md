@@ -31,3 +31,6 @@ Please ensure you have sufficient disk space and permissions to create and write
 - Ensure that the SRA files do not contain additional segments, as the script checks for single-end (4 lines) or paired-end (8 lines) sequencing data.
 - The script will not delete the intermediary file list (`sra_files_list.txt`), which you may want to remove manually after the conversion.
 
+
+## 3. Heatmap Generator for Multiple Datasets
+This Python script is crafted for generating heatmaps from multiple datasets, ideal for visualizing gene expression data. It handles data preprocessing and visualization, creating distinct heatmaps for each dataset.
